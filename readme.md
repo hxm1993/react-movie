@@ -15,4 +15,4 @@ npm install  (安装依赖包)
 
 npm dev (运行本地开发环境)
 
-npm run build (打包)# react-movie
+npm run build (打包)
