@@ -1,0 +1,63 @@
+
+.loading
+	font-size: 0.4rem
+	text-align: center
+	position: absolute
+	width: 100%
+	height: 100%
+	z-index: 1000
+	background: #e1e1e1
+	div
+		width: 5rem
+		margin: 3rem auto
+.loaded
+		display: none
+
+.cinema
+	.item
+		font-size: 0.28rem
+
+		.title
+			color: #636363
+			height: 0.75rem
+			line-height: 0.75rem
+			padding-left: 0.2rem
+		.cinemaDesc
+			background: #fff
+			display: none
+			
+		&.active 
+			.cinemaDesc
+				display: block
+			ul
+				li
+					padding: 0.2rem 0.3rem
+					border-bottom: 1px dotted #ccc
+					.name
+						font-size: 0.32rem
+						line-height: 0.7rem
+						padding-bottom: 0.1rem
+
+						span
+							color: #fd9c77
+							border: 1px solid #fd9c77
+							margin-left: 0.1rem
+							font-size: 0.2rem
+							border-radius: 50%
+							padding: 0.03rem 0.06rem
+							&:last-child
+								color:#a5c1d5
+								border: 1px solid #a5c1d5
+							&:first-child
+								margin-left: 0.3rem
+					.address,.avaliableSchedule
+						color: #ccc
+						font-size: 0.24rem
+						line-height: 0.4rem
+						white-space: nowrap
+						overflow: hidden
+						text-overflow: ellipsis
+					.price
+						color: #fc8637
+						font-size: 0.32rem
+						line-height: 0.7rem

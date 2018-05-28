@@ -1,0 +1,75 @@
+.films
+	background: #fff
+	padding: 0 0.2rem
+
+	.tab
+		height: .8rem
+		line-height: .8rem
+		list-style: none
+		display: flex
+		font-size: 0.32rem
+		background: #fff
+		border-bottom: 1px solid #fe6e00
+		li
+			color: #6a6a6a
+			flex: 1
+			text-align: center
+
+			&.active
+				color: #fe6e00
+				border-bottom: 3px solid #fe6e00
+
+
+	.now-playing
+		display: none
+
+		&.active
+			display: block
+	.coming-soon
+		display: none
+
+		&.active
+			display: block
+	
+	.item
+		font-size: 0.36rem
+		border-bottom: 2px dotted #ccc
+		padding: 0.3rem 0rem
+		display: block
+
+		&:last-child
+			border: none
+		.movie
+			display: -webkit-box
+			-webkit-box-pack: justify
+			-webkit-box-align: start
+
+			.movieImg
+				margin-right: 0.3rem
+				img 
+					width: 1.2rem
+			.movieDes
+				width: 4.6rem
+				color: #8e8e8e
+				padding-top: 0.2rem
+
+				h3
+					color: #000
+					font-size: 0.28rem
+					font-weight: 400
+					line-height: 0.4rem
+				p 
+					font-size: 0.24rem
+					line-height: 0.4rem
+				div
+					font-size: 0.24rem
+					padding-top: 0.1rem
+
+					p
+						float: left
+				.playDate
+					color: #fe6e00
+			.movieGrade
+				color: #fe6e00
+				width: 1rem
+				padding-top: 0.3rem
